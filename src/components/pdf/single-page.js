@@ -25,7 +25,7 @@ export default function SinglePage(props) {
   const { pdf } = props;
 
   return (
-    <>
+    <>Bishops Resume
       <Document
         file={pdf}
         options={{ workerSrc: "/pdf.worker.js" }}
